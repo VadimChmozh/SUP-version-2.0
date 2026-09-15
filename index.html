@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUP Armavir — Прокат и посуточная аренда сапбордов</title>
+    <!-- Шрифты Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- ШАПКА САЙТА -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🏄‍♂️</span>
+                <span class="logo-text">SUP <span>Armavir</span></span>
+            </a>
+            <nav class="nav" id="navMenu">
+                <ul>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#daily" class="nav-link">Посуточная аренда</a></li>
+                    <li><a href="#prices" class="nav-link">Тарифы</a></li>
+                    <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                </ul>
+            </nav>
+            <a href="#booking" class="btn btn-header">Забронировать</a>
+            <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ГЛАВНЫЙ БАННЕР (HERO) -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-badge">Сезон 2027 открыт • 10 сапбордов в наличии</span>
+            <h1>Прокат сапбордов в Армавире & <span>Посуточная аренда</span></h1>
+            <p>Катайся на городском водохранилище или бери сапборд в удобном рюкзаке с собой на любые пруды, озёра и море!</p>
+            <div class="hero-btns">
+                <a href="#booking" class="btn btn-primary">Забронировать сап</a>
+                <a href="#daily" class="btn btn-secondary">Взять посуточно 🎒</a>
+            </div>
+        </div>
+        <!-- Декоративная волна снизу -->
+        <div class="wave-bottom">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,32L60,42.7C120,53,240,75,360,74.7C480,75,600,53,720,48C840,43,960,53,1080,58.7C1200,64,1320,64,1380,64L1440,64L1440,120L1380,120C1320,120,1200,120,1080,120C960,120,840,120,720,120C600,120,480,120,360,120C240,120,120,120,60,120L0,120Z" fill="#ffffff"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ПРЕИМУЩЕСТВА -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Почему выгодно брать у нас</h2>
+                <p>Максимальный комфорт, надежность и гибкие условия аренды</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎒</div>
+                    <h3>Всё в одном рюкзаке</h3>
+                    <p>В сдутом виде сап легко помещается в багажник любого автомобиля. Сборка занимает 7–15 минут.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌊</div>
+                    <h3>10 свежих досок</h3>
+                    <p>Большой автопарк ярких, устойчивых и грузоподъемных сапов. Хватит даже на большую компанию.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Полный комплект безопасности</h3>
+                    <p>К каждому сапу прилагается насос, разборное весло, страховочный лиш, спасательный жилет и чехол для смартфона.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Быстрое оформление</h3>
+                    <p>Оформление договора за 5 минут. Забрать можно в Армавире в удобное для вас время.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ: ПОСУТОЧНАЯ АРЕНДА (АКЦЕНТ) -->
+    <section id="daily" class="section daily-section">
+        <div class="container">
+            <div class="daily-wrapper">
+                <div class="daily-text">
+                    <span class="sub-tag">СВОБОДА ПЕРЕДВИЖЕНИЯ</span>
+                    <h2>Возьми SUP с собой на отдых!</h2>
+                    <p>Планируете поездку на песчаные карьеры, Новотроицкое водохранилище, в горы или на Черное море? Возьмите сапборд в посуточную аренду и катайтесь там, где вам нравится, без ограничений по времени!</p>
+                    
+                    <div class="daily-kit">
+                        <h4>Что входит в комплект посуточной аренды:</h4>
+                        <ul>
+                            <li>🎒 Удобная сумка-рюкзак для транспортировки</li>
+                            <li>🏄‍♂️ Надувной SUP-борд премиум качества</li>
+                            <li>💨 Двухходовой насос высокого давления с манометром</li>
+                            <li>🚣‍♂️ Легкое регулируемое весло + съемный плавник</li>
+                            <li>🦺 Страховочный лиш + Спасательный жилет</li>
+                            <li>📱 Водонепроницаемый чехол для телефона в подарок</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="daily-image">
+                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80" alt="Комплект сапборда в рюкзаке">
+                    <div class="daily-badge">
+                        <span>От 1 200 ₽</span>
+                        <small>за сутки</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ТАРИФЫ И ЦЕНЫ -->
+    <section id="prices" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Прозрачные тарифы</h2>
+                <p>Выбирайте удобный вариант — по часам или на несколько дней</p>
+            </div>
+            <div class="prices-grid">
+                
+                <!-- Тариф 1 -->
+                <div class="price-card">
+                    <div class="price-header">
+                        <h3>Почасовая аренда</h3>
+                        <p>На водохранилище Армавира</p>
+                    </div>
+                    <div class="price-amount">500 ₽ <span>/ 1 час</span></div>
+                    <ul class="price-list">
+                        <li>Катание на месте</li>
+                        <li>Инструктаж за 5 минут</li>
+                        <li>Спасательный жилет включен</li>
+                        <li>Идеально для новичков</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-card-outline">Забронировать</a>
+                </div>
+
+                <!-- Тариф 2 (Популярный) -->
+                <div class="price-card popular">
+                    <div class="popular-badge">ТОП ВЫБОР</div>
+                    <div class="price-header">
+                        <h3>1 Сутки (Посуточно)</h3>
+                        <p>Бери куда угодно</p>
+                    </div>
+                    <div class="price-amount">1 500 ₽ <span>/ сутки</span></div>
+                    <ul class="price-list">
+                        <li>Полный комплект в рюкзаке</li>
+                        <li>Насос, весло, жилет, чехол</li>
+                        <li>Возврат на следующий день</li>
+                        <li>Для поездок на любой водоём</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-primary">Взять посуточно</a>
+                </div>
+
+                <!-- Тариф 3 -->
+                <div class="price-card">
+                    <div class="price-header">
+                        <h3>От 2-х суток</h3>
+                        <p>Выгодный уикенд / отпуск</p>
+                    </div>
+                    <div class="price-amount">1 300 ₽ <span>/ сутки</span></div>
+                    <ul class="price-list">
+                        <li>Скидка при аренде от 2 дней</li>
+                        <li>Отлично для выезда на море/горы</li>
+                        <li>Полный комплект оборудование</li>
+                        <li>Скидки для компаний от 3 сапов</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-card-outline">Забронировать</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ГАЛЕРЕЯ ФОТОГРАФИЙ -->
+    <section id="gallery" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Галерея</h2>
+                <p>Нажмите на изображение, чтобы рассмотреть детально</p>
+            </div>
+            
+            <!-- СЕТКА ФОТОГРАФИЙ (Заменяйте src на свои фото!) -->
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://avatars.mds.yandex.net/i?id=ec377302c0d4614148962e75a1f50481_l-4453525-images-thumbs&n=13" alt="SUP бординг на воде">
+                    <div class="gallery-hover"><span>🔍 Увеличить</span></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://media.istockphoto.com/id/2220200919/ru/фото/сап-борд-на-озере-на-фоне-восхода-солнца.jpg?s=612x612&w=0&k=20&c=dhQdVtz0sv06bTTmxKWtJiID1Vcm3YLF90e7TlOQlZU=" alt="Сапборд на закате">
+                    <div class="gallery-hover"><span>🔍 Увеличить</span></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://avatars.mds.yandex.net/get-altay/20238055/2a0000019f57cd1028278256431c22f37901/XXXL" alt="Отдых на сапе">
+                    <div class="gallery-hover"><span>🔍 Увеличить</span></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1563299796-17596ed6b017?auto=format&fit=crop&w=800&q=80" alt="Прокат сапбордов">
+                    <div class="gallery-hover"><span>🔍 Увеличить</span></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Сапбординг на озере">
+                    <div class="gallery-hover"><span>🔍 Увеличить</span></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80" alt="Комплект сапа">
+                    <div class="gallery-hover"><span>🔍 Увеличить</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ВОПРОСЫ И ОТВЕТЫ (FAQ) -->
+    <section id="faq" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Часто задаваемые вопросы</h2>
+                <p>Все, что нужно знать перед арендой сапборда</p>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">Что нужно для оформления посуточной аренды? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Для заключения договора нужен оригинал паспорта РФ. Также вносится небольшой залог (или документ), который полностью возвращается при сдаче исправного оборудования.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Поместится ли сапборд в мой автомобиль? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Да! В сдутом состоянии сапборд со всеми комплектующими упакован в фирменный рюкзак размером примерно 90х40х30 см. Он легко помещается даже в багажник компактного седана или на заднее сиденье.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Смогу ли я кататься, если делаю это в первый раз? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>Конечно! Наши сапборды очень широкие и устойчивые (ширина от 81 см). Мы подробно расскажем и покажем, как накачать доску, правильно держать весло и держать баланс.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Что делать, если мы хотим взять сразу 5–10 сапов для компании? <span class="faq-icon">+</span></button>
+                    <div class="faq-answer">
+                        <p>У нас в наличии 10 сапбордов! Для больших компаний, дней рождения и корпоративов у нас действуют индивидуальные скидки. Бронируйте заранее по телефону или в мессенджерах.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- БРОНИРОВАНИЕ И КОНТАКТЫ -->
+    <section id="booking" class="section bg-light">
+        <div class="container">
+            <div class="booking-card">
+                <div class="booking-info">
+                    <h2>Забронируйте SUP прямо сейчас</h2>
+                    <p>Оставьте заявку или свяжитесь с нами напрямую через мессенджеры. Находятся ли вопросы — с удовольствием подскажем!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-line">
+                            <span class="c-icon">📞</span>
+                            <div>
+                                <small>Телефон для брони</small>
+                                <strong>+7 (918) 266-40-60</strong>
+                            </div>
+                        </div>
+                        <div class="contact-line">
+                            <span class="c-icon">📍</span>
+                            <div>
+                                <small>Локация в Армавире</small>
+                                <strong>Городское водохранилище / Самовывоз</strong>
+                            </div>
+                        </div>
+                        <div class="contact-line">
+                            <span class="c-icon">⏰</span>
+                            <div>
+                                <small>Режим работы</small>
+                                <strong>Ежедневно с 10:00 до 20:00</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://wa.me/79182664060" target="_blank" class="social-btn wa">WhatsApp</a>
+                        <a href="https://t.me/drazzex" target="_blank" class="social-btn tg">Telegram</a>
+                    </div>
+                </div>
+                <form class="booking-form" id="rentForm">
+    <!-- Укажите вашу реальную почту для заявок -->
+    <input type="hidden" id="formEmail" value="vadimcmoz@gmail.com">
+
+    <h3>Заявка на бронирование</h3>
+    
+    <div class="form-group">
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" placeholder="Иван" required>
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Номер телефона</label>
+        <input type="tel" id="phone" placeholder="+7 (900) 000-00-00" required>
+    </div>
+
+    <div class="form-group">
+        <label for="type">Тип аренды</label>
+        <select id="type">
+            <option value="Почасовая (Армавир)">Почасовая (Армавир)</option>
+            <option value="Посуточно (1 сутки)">Посуточно (1 сутки)</option>
+            <option value="Посуточно (2+ суток)">Посуточно (2+ суток)</option>
+            <option value="На компанию">Аренда на компанию / Праздник</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="count">Количество сапбордов</label>
+        <input type="number" id="count" min="1" max="10" value="1">
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+</form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОДВАЛ -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© 2027 SUP Armavir. Прокат и посуточная аренда сапбордов в Армавире.</p>
+        </div>
+    </footer>
+
+    <!-- МОДАЛЬНОЕ ОКНО ДЛЯ ПРОСМОТРА ФОТО -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img src="" alt="Увеличенное фото" id="lightboxImg">
+    </div>
+
+    <!-- Подключение JS -->
+    <script src="index.js"></script>
+</body>
+</html>
